@@ -9,7 +9,7 @@ import "../src/TokenBridge.sol";
 contract DeployScript is Script {
     function run() external {
        
-        uint256 deployerPrivateKey = 0x76d31acf58ccc92f5f22f8b386bf6cfb4d81dbe5a12b5000d41054b39c4b51ea; // Replace with your private key
+        uint256 deployerPrivateKey = PRIVATE_KEY; // Replace with your private key
 
         vm.startBroadcast(deployerPrivateKey);
 
